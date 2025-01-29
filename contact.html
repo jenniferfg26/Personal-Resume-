@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+    <body>
+      <!-- NAV BAR -->
+      <div class= "navbar">
+        <div class= "button">
+          <a href= "index.html"> home </a>
+        </div>
+        <div class = "button">
+          <a href="about.html"> about </a>
+        </div>
+        <div class = "button">  
+          <a href="resume.html"> resume </a>
+        </div>
+        <div class = "button">
+          <a href="contact.html"> contact </a>
+        </div>
+      </div>
+      <br> 
+      <br> 
+      <!-- CONTACT FORM -->
+    <div class="contact">
+    <div class="contact-form-container">
+      <h2>Contact Me!</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required="">
+          <span class="error-message" id="nameError"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required="">
+          <span class="error-message" id="emailError"></span>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required="">
+          <span class="error-message" id="phoneError"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your Message" rows="5" required=""></textarea>
+          <span class="error-message" id="messageError"></span>
+        </div>
+        <button type="submit" class="submit-button">
+          <p>Send Message</p> 
+        </button>
+      </form>
+    </div>
+    </div>
+  </body>
+</html>
