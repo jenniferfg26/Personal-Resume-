@@ -1,0 +1,153 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* BODY DESIGN */
+body {
+  background-color:#f1f1e9;
+  color:#000000;
+  font-family:Palatino, URW Palladio L, serif	;
+}
+
+/* NAV BAR CODE */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: space-around;
+  background-color:#fbf3c1;
+  padding: 20px;
+}
+
+a {
+  text-decoration:none;
+  color:#000000;
+ 
+}
+a:link {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+a:hover {
+  font-size: 15px;
+  color:#c6bc7f;
+  font-weight: bold;
+}
+
+/* ABOUT CSS */
+.about {
+  background-color: #ffffff;
+  padding: 100px;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* RESUME CSS */
+.resume {
+  background-color: #ffffff;
+  padding: 50px;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  align-items: center; 
+}
+
+/* TITLE AND IMAGE/TEXT */
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.img {
+
+  float: left;
+  border-style:double;
+  border-color: #faea82;
+  border-width: 12px
+}
+.text {
+
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20%;
+  float: left;
+
+}
+
+/* CONTACT CSS */
+.contact {
+  background-color: #f1f1e9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+}
+h2 {
+  margin-top: 0;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  display: none; /* Hidden by default */
+}
+
+.submit-button {
+  background-color: #fbf3c1;
+  color: #524e32;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #fffbe3;
+}
+}
